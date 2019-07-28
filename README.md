@@ -25,4 +25,8 @@ We use <a href="https://thingspeak.com">ThingSpeak</a> for cloud storage.
  <b>Output:</b>
  <img src="https://github.com/sayandeepmajumdar/iot-desktop-app/blob/master/gui.png">
  
+ Click on the On Off button and see the output.
+ 
+ <b>Have Fun</b>
+ 
  
