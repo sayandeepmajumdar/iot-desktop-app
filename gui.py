@@ -24,7 +24,7 @@ def lightoff():
    tkMessageBox.showinfo( "TAL-IoT (Budding Innovator v3.0)", "Light OFF")
    arduinoData = 0
    # print("Data:", arduinoData)
-   URL = "https://api.thingspeak.com/update?api_key=<Your_API_KEY>"
+   URL = "https://api.thingspeak.com/update?api_key=<Your_API_KEY>" #For update data to cloud channel
    PARAMS = { 'field1' : arduinoData }
    requests.get(url=URL,params=PARAMS)
    dataToArduino()
@@ -34,7 +34,7 @@ def lighton():
    tkMessageBox.showinfo( "TAL-IoT (Budding Innovator v3.0)", "Light ON")
    arduinoData = 1
    # print("Data:", arduinoData)
-   URL1 = "https://api.thingspeak.com/update?api_key=<Your_API_KEY>"
+   URL1 = "https://api.thingspeak.com/update?api_key=<Your_API_KEY>" #For update data to cloud channel
    PARAMS1 = { 'field1' : arduinoData }
    requests.get(url=URL1,params=PARAMS1)
    dataToArduino()
@@ -42,7 +42,7 @@ def lighton():
 def dataToArduino():
    
    # while 1:
-   URL2 = "https://api.thingspeak.com/channels/834537/fields/1.json?api_key=<Your_API_KEY>"
+   URL2 = "https://api.thingspeak.com/channels/834537/fields/1.json?api_key=<Your_API_KEY>" #For get one channel data from cloud
 
    PARAMS2 = { 'results' : 2 }
 
