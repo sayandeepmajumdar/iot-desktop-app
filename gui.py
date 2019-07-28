@@ -15,7 +15,7 @@ root.resizable(width=True, height=False)
 # Code to add widgets will go here...
 C = tkinter.Canvas(root, bg="#212121", height=300, width=400)
 C.grid(row=2,column=2)
-board = Arduino("COM4")
+# board = Arduino("COM4")
 # ser = Serial("COM4", baudrate = 9600, timeout=1)
 tkinter.Label(root, text='Remote For Light',bg="#e64a19").grid(row=2,column=2,sticky='N',pady='10')
 
