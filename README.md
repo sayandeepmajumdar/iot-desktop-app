@@ -17,7 +17,7 @@ We use <a href="https://thingspeak.com">ThingSpeak</a> for cloud storage.
  3. Choose PORT from your Arduino and put it in the code.
  4. In Arduino choose one lib file called <b>StandardFirmata</b>
  <img src="https://github.com/sayandeepmajumdar/iot-desktop-app/blob/master/standarfirmata.png">
- 5. Upload that code to Arduino UNO. (This Lib will help to communicate between Python and Arduino)
+ 5. Upload that code to Arduino UNO. (This Lib will help to communicate between Python and Arduino)<br>
  6. Get your Write and Read API_KEY from <a href="https://thingspeak.com">ThingSpeak</a> account.
  7. Get to your folder and run your code.
     <code>python gui.py</code>
