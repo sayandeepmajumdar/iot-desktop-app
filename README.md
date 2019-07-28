@@ -27,6 +27,6 @@ We use <a href="https://thingspeak.com">ThingSpeak</a> for cloud storage.
  
  Click on the On Off button and see the output.
  
- <b>Have Fun</b>
+ <b>Have Fun</b> !!!
  
  
